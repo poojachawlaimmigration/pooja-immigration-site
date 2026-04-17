@@ -1,32 +1,40 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center text-center px-6 py-16 space-y-24 max-w-6xl mx-auto">
+export default function Home() {
+  return (
+    <main className="flex flex-col items-center text-center px-6 py-16 space-y-24 max-w-6xl mx-auto">
 
+      {/* HERO SECTION */}
       <section className="max-w-3xl space-y-6">
         <h1 className="text-5xl font-bold leading-tight">
-          Canadian Immigration Solutions That Actually Work
+          Canadian Immigration Services for Work, Study & Permanent Residency
         </h1>
+
         <p className="text-lg text-gray-600">
-          Work with a licensed immigration professional providing strategic,
-          IRCC-compliant guidance for PR, work permits, study visas, and complex cases.
+          Personalized immigration guidance to help you navigate Canadian pathways with clarity, strategy, and compliance.
         </p>
 
         <div className="flex gap-4 justify-center">
           <a href="/contact">
             <button className="bg-black text-white px-6 py-3 rounded-xl">
-              Book a Consultation
+              Book Consultation
             </button>
           </a>
-          <button className="border px-6 py-3 rounded-xl">
-            Check Eligibility
-          </button>
+
+          <a href="/services">
+            <button className="border px-6 py-3 rounded-xl">
+              View Services
+            </button>
+          </a>
         </div>
 
         <p className="text-sm text-gray-500">
-          ✔ 90+ Five-Star Reviews &nbsp; ✔ Proven Results &nbsp; ✔ Personalized Strategy
+          ✔ Immigration consulting support based in Canada &nbsp; ✔ Step-by-step guidance &nbsp; ✔ Strategy-focused approach
         </p>
       </section>
 
+      {/* SERVICES */}
       <section className="max-w-5xl w-full">
         <h2 className="text-2xl font-semibold mb-6">Our Services</h2>
 
@@ -54,14 +62,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* WHY CHOOSE US */}
       <section className="max-w-3xl space-y-4">
         <h2 className="text-2xl font-semibold">Why Choose Us</h2>
         <p className="text-gray-600">
-          We focus on accuracy, strategy, and transparency. Every application is
-          carefully prepared to meet current IRCC requirements and minimize risk.
+          We focus on accuracy, strategy, and transparency. Every application is carefully prepared to meet current IRCC requirements and minimize risk.
         </p>
       </section>
 
+      {/* TESTIMONIALS */}
       <section className="max-w-3xl space-y-6">
         <h2 className="text-2xl font-semibold">What Clients Say</h2>
 
@@ -72,13 +81,15 @@ export default function Home() {
         </div>
       </section>
 
+      {/* FINAL CTA */}
       <section className="space-y-4">
         <h2 className="text-2xl font-semibold">
           Start Your Immigration Journey
         </h2>
+
         <a href="/contact">
           <button className="bg-black text-white px-6 py-3 rounded-xl">
-            Book a Consultation
+            Book Consultation
           </button>
         </a>
       </section>
