@@ -1,9 +1,9 @@
 export default function Home() {
   return (
-    <main className="flex flex-col items-center text-center px-6 py-12 space-y-16">
+    <main className="flex flex-col items-center text-center px-6 py-16 space-y-24 max-w-6xl mx-auto">
 
       <section className="max-w-3xl space-y-6">
-        <h1 className="text-4xl font-bold">
+        <h1 className="text-5xl font-bold leading-tight">
           Canadian Immigration Solutions That Actually Work
         </h1>
         <p className="text-lg text-gray-600">
