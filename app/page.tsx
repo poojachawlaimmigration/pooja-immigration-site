@@ -1,9 +1,6 @@
 export default function Home() {
   return (
     <main className="flex flex-col items-center text-center px-6 py-16 space-y-24 max-w-6xl mx-auto">
-export default function Home() {
-  return (
-    <main className="flex flex-col items-center text-center px-6 py-16 space-y-24 max-w-6xl mx-auto">
 
       {/* HERO SECTION */}
       <section className="max-w-3xl space-y-6">
@@ -59,25 +56,6 @@ export default function Home() {
               Strong reapplications for previously refused cases.
             </p>
           </div>
-        </div>
-      </section>
-
-      {/* WHY CHOOSE US */}
-      <section className="max-w-3xl space-y-4">
-        <h2 className="text-2xl font-semibold">Why Choose Us</h2>
-        <p className="text-gray-600">
-          We focus on accuracy, strategy, and transparency. Every application is carefully prepared to meet current IRCC requirements and minimize risk.
-        </p>
-      </section>
-
-      {/* TESTIMONIALS */}
-      <section className="max-w-3xl space-y-6">
-        <h2 className="text-2xl font-semibold">What Clients Say</h2>
-
-        <div className="space-y-4 text-gray-600">
-          <p>“The process was smooth and stress-free.”</p>
-          <p>“Extremely knowledgeable and responsive.”</p>
-          <p>“Handled my complex case perfectly.”</p>
         </div>
       </section>
 
