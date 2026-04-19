@@ -5,26 +5,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="relative">
 
         {children}
 
         {/* Sticky Book Consultation Button */}
         <a
           href="/contact"
-          style={{
-            position: "fixed",
-            bottom: "20px",
-            right: "20px",
-            backgroundColor: "#000",
-            color: "#fff",
-            padding: "14px 18px",
-            borderRadius: "999px",
-            textDecoration: "none",
-            fontWeight: "bold",
-            boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
-            zIndex: 1000
-          }}
+          className="fixed bottom-5 right-5 bg-black text-white px-5 py-3 rounded-full shadow-lg z-50"
         >
           Book Consultation
         </a>
