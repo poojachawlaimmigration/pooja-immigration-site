@@ -1,14 +1,3 @@
-import "./globals.css";
-import type { Metadata } from "next";
-
-export const metadata: Metadata = {
-  title: "Pooja Chawla Immigration Consulting Corp | Windsor & Toronto Immigration Consultant",
-  description:
-    "Trusted Canadian Immigration Consultant in Windsor and Toronto. Services include Express Entry, PR, Work Permits, Study Permits, Spousal Sponsorship, TRP, and Criminal Rehabilitation.",
-  keywords:
-    "Immigration consultant Windsor, Immigration consultant Toronto, Canada PR, Express Entry, Work Permit Canada, Study Permit Canada",
-};
-
 export default function RootLayout({
   children,
 }: {
@@ -16,7 +5,31 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+
+        {children}
+
+        {/* Sticky Book Consultation Button */}
+        <a
+          href="/contact"
+          style={{
+            position: "fixed",
+            bottom: "20px",
+            right: "20px",
+            backgroundColor: "#000",
+            color: "#fff",
+            padding: "14px 18px",
+            borderRadius: "999px",
+            textDecoration: "none",
+            fontWeight: "bold",
+            boxShadow: "0 4px 12px rgba(0,0,0,0.2)",
+            zIndex: 1000
+          }}
+        >
+          Book Consultation
+        </a>
+
+      </body>
     </html>
   );
 }
